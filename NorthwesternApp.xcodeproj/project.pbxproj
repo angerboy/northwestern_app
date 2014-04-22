@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47B307E01906193A00F5416D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307DF1906193A00F5416D /* Foundation.framework */; };
+		47B307E21906193A00F5416D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307E11906193A00F5416D /* CoreGraphics.framework */; };
+		47B307E41906193A00F5416D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307E31906193A00F5416D /* UIKit.framework */; };
+		47B307EA1906193A00F5416D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47B307E81906193A00F5416D /* InfoPlist.strings */; };
+		47B307EC1906193A00F5416D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B307EB1906193A00F5416D /* main.m */; };
+		47B307F01906193A00F5416D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B307EF1906193A00F5416D /* AppDelegate.m */; };
+		47B307F31906193B00F5416D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B307F11906193B00F5416D /* Main.storyboard */; };
+		47B307F61906193B00F5416D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B307F51906193B00F5416D /* ViewController.m */; };
+		47B307F81906193B00F5416D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B307F71906193B00F5416D /* Images.xcassets */; };
+		47B307FF1906193B00F5416D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307FE1906193B00F5416D /* XCTest.framework */; };
+		47B308001906193B00F5416D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307DF1906193A00F5416D /* Foundation.framework */; };
+		47B308011906193B00F5416D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307E31906193A00F5416D /* UIKit.framework */; };
+		47B308091906193B00F5416D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47B308071906193B00F5416D /* InfoPlist.strings */; };
+		47B3080B1906193B00F5416D /* NorthwesternAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B3080A1906193B00F5416D /* NorthwesternAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47B308021906193B00F5416D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47B307D41906193900F5416D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B307DB1906193A00F5416D;
+			remoteInfo = NorthwesternApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47B307DC1906193A00F5416D /* NorthwesternApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorthwesternApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B307DF1906193A00F5416D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47B307E11906193A00F5416D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47B307E31906193A00F5416D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47B307E71906193A00F5416D /* NorthwesternApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NorthwesternApp-Info.plist"; sourceTree = "<group>"; };
+		47B307E91906193A00F5416D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47B307EB1906193A00F5416D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47B307ED1906193A00F5416D /* NorthwesternApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NorthwesternApp-Prefix.pch"; sourceTree = "<group>"; };
+		47B307EE1906193A00F5416D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47B307EF1906193A00F5416D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47B307F21906193B00F5416D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47B307F41906193B00F5416D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47B307F51906193B00F5416D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47B307F71906193B00F5416D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47B307FD1906193B00F5416D /* NorthwesternAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorthwesternAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B307FE1906193B00F5416D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		47B308061906193B00F5416D /* NorthwesternAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NorthwesternAppTests-Info.plist"; sourceTree = "<group>"; };
+		47B308081906193B00F5416D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47B3080A1906193B00F5416D /* NorthwesternAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NorthwesternAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47B307D91906193A00F5416D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B307E21906193A00F5416D /* CoreGraphics.framework in Frameworks */,
+				47B307E41906193A00F5416D /* UIKit.framework in Frameworks */,
+				47B307E01906193A00F5416D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B307FA1906193B00F5416D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B307FF1906193B00F5416D /* XCTest.framework in Frameworks */,
+				47B308011906193B00F5416D /* UIKit.framework in Frameworks */,
+				47B308001906193B00F5416D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47B307D31906193900F5416D = {
+			isa = PBXGroup;
+			children = (
+				47B307E51906193A00F5416D /* NorthwesternApp */,
+				47B308041906193B00F5416D /* NorthwesternAppTests */,
+				47B307DE1906193A00F5416D /* Frameworks */,
+				47B307DD1906193A00F5416D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47B307DD1906193A00F5416D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47B307DC1906193A00F5416D /* NorthwesternApp.app */,
+				47B307FD1906193B00F5416D /* NorthwesternAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47B307DE1906193A00F5416D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47B307DF1906193A00F5416D /* Foundation.framework */,
+				47B307E11906193A00F5416D /* CoreGraphics.framework */,
+				47B307E31906193A00F5416D /* UIKit.framework */,
+				47B307FE1906193B00F5416D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47B307E51906193A00F5416D /* NorthwesternApp */ = {
+			isa = PBXGroup;
+			children = (
+				47B307EE1906193A00F5416D /* AppDelegate.h */,
+				47B307EF1906193A00F5416D /* AppDelegate.m */,
+				47B307F11906193B00F5416D /* Main.storyboard */,
+				47B307F41906193B00F5416D /* ViewController.h */,
+				47B307F51906193B00F5416D /* ViewController.m */,
+				47B307F71906193B00F5416D /* Images.xcassets */,
+				47B307E61906193A00F5416D /* Supporting Files */,
+			);
+			path = NorthwesternApp;
+			sourceTree = "<group>";
+		};
+		47B307E61906193A00F5416D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47B307E71906193A00F5416D /* NorthwesternApp-Info.plist */,
+				47B307E81906193A00F5416D /* InfoPlist.strings */,
+				47B307EB1906193A00F5416D /* main.m */,
+				47B307ED1906193A00F5416D /* NorthwesternApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47B308041906193B00F5416D /* NorthwesternAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				47B3080A1906193B00F5416D /* NorthwesternAppTests.m */,
+				47B308051906193B00F5416D /* Supporting Files */,
+			);
+			path = NorthwesternAppTests;
+			sourceTree = "<group>";
+		};
+		47B308051906193B00F5416D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47B308061906193B00F5416D /* NorthwesternAppTests-Info.plist */,
+				47B308071906193B00F5416D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47B307DB1906193A00F5416D /* NorthwesternApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B3080E1906193B00F5416D /* Build configuration list for PBXNativeTarget "NorthwesternApp" */;
+			buildPhases = (
+				47B307D81906193A00F5416D /* Sources */,
+				47B307D91906193A00F5416D /* Frameworks */,
+				47B307DA1906193A00F5416D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NorthwesternApp;
+			productName = NorthwesternApp;
+			productReference = 47B307DC1906193A00F5416D /* NorthwesternApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47B307FC1906193B00F5416D /* NorthwesternAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B308111906193B00F5416D /* Build configuration list for PBXNativeTarget "NorthwesternAppTests" */;
+			buildPhases = (
+				47B307F91906193B00F5416D /* Sources */,
+				47B307FA1906193B00F5416D /* Frameworks */,
+				47B307FB1906193B00F5416D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47B308031906193B00F5416D /* PBXTargetDependency */,
+			);
+			name = NorthwesternAppTests;
+			productName = NorthwesternAppTests;
+			productReference = 47B307FD1906193B00F5416D /* NorthwesternAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47B307D41906193900F5416D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matthew Ehinger";
+				TargetAttributes = {
+					47B307FC1906193B00F5416D = {
+						TestTargetID = 47B307DB1906193A00F5416D;
+					};
+				};
+			};
+			buildConfigurationList = 47B307D71906193A00F5416D /* Build configuration list for PBXProject "NorthwesternApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47B307D31906193900F5416D;
+			productRefGroup = 47B307DD1906193A00F5416D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47B307DB1906193A00F5416D /* NorthwesternApp */,
+				47B307FC1906193B00F5416D /* NorthwesternAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47B307DA1906193A00F5416D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B307F81906193B00F5416D /* Images.xcassets in Resources */,
+				47B307EA1906193A00F5416D /* InfoPlist.strings in Resources */,
+				47B307F31906193B00F5416D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B307FB1906193B00F5416D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B308091906193B00F5416D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47B307D81906193A00F5416D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B307F61906193B00F5416D /* ViewController.m in Sources */,
+				47B307F01906193A00F5416D /* AppDelegate.m in Sources */,
+				47B307EC1906193A00F5416D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B307F91906193B00F5416D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B3080B1906193B00F5416D /* NorthwesternAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47B308031906193B00F5416D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47B307DB1906193A00F5416D /* NorthwesternApp */;
+			targetProxy = 47B308021906193B00F5416D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47B307E81906193A00F5416D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B307E91906193A00F5416D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47B307F11906193B00F5416D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B307F21906193B00F5416D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47B308071906193B00F5416D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B308081906193B00F5416D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47B3080C1906193B00F5416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47B3080D1906193B00F5416D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47B3080F1906193B00F5416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NorthwesternApp/NorthwesternApp-Prefix.pch";
+				INFOPLIST_FILE = "NorthwesternApp/NorthwesternApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47B308101906193B00F5416D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NorthwesternApp/NorthwesternApp-Prefix.pch";
+				INFOPLIST_FILE = "NorthwesternApp/NorthwesternApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47B308121906193B00F5416D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NorthwesternApp.app/NorthwesternApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NorthwesternApp/NorthwesternApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NorthwesternAppTests/NorthwesternAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		47B308131906193B00F5416D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NorthwesternApp.app/NorthwesternApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NorthwesternApp/NorthwesternApp-Prefix.pch";
+				INFOPLIST_FILE = "NorthwesternAppTests/NorthwesternAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47B307D71906193A00F5416D /* Build configuration list for PBXProject "NorthwesternApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B3080C1906193B00F5416D /* Debug */,
+				47B3080D1906193B00F5416D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B3080E1906193B00F5416D /* Build configuration list for PBXNativeTarget "NorthwesternApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B3080F1906193B00F5416D /* Debug */,
+				47B308101906193B00F5416D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47B308111906193B00F5416D /* Build configuration list for PBXNativeTarget "NorthwesternAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B308121906193B00F5416D /* Debug */,
+				47B308131906193B00F5416D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47B307D41906193900F5416D /* Project object */;
+}
