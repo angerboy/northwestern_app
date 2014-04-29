@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MasterViewController.h"
 
 @interface ViewController ()
 
@@ -18,12 +19,27 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if([segue.identifier isEqualToString:@"login"]) {
+        
+        [self.user setUserID:self.idInput.text];
+        MasterViewController *menuView = [[MasterViewController alloc]init];
+        menuView = segue.destinationViewController;
+       
+    }
+}
+
+-(void)setUser:(User *)user {
+    _user = user;
 }
 
 @end

@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "User.h"
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UITextField *idInput;
+@property (strong, nonatomic) IBOutlet UITextField *passwordInput;
+@property (strong, nonatomic) User *user;
+
+-(void)setUser:(User *)user;
 
 @end

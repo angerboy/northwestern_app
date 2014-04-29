@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47118D93190B93460072B58D /* CoursePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47118D92190B93460072B58D /* CoursePageViewController.m */; };
+		47118D97190B9FA80072B58D /* BestFitSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 47118D96190B9FA80072B58D /* BestFitSearcher.m */; };
+		473AC283190BD7480078BE3D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473AC282190BD7480078BE3D /* Accelerate.framework */; };
+		473AC290190BD77C0078BE3D /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC285190BD77C0078BE3D /* RECommonFunctions.m */; };
+		473AC291190BD77C0078BE3D /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC287190BD77C0078BE3D /* REFrostedContainerViewController.m */; };
+		473AC292190BD77C0078BE3D /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC289190BD77C0078BE3D /* REFrostedViewController.m */; };
+		473AC293190BD77C0078BE3D /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC28B190BD77C0078BE3D /* UIImage+REFrostedViewController.m */; };
+		473AC294190BD77C0078BE3D /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC28D190BD77C0078BE3D /* UIView+REFrostedViewController.m */; };
+		473AC295190BD77C0078BE3D /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC28F190BD77C0078BE3D /* UIViewController+REFrostedViewController.m */; };
+		473AC298190BD9EF0078BE3D /* FrostedMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC297190BD9EF0078BE3D /* FrostedMenuViewController.m */; };
+		47A3C1A4190B247400EB2425 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A3C196190B247400EB2425 /* ViewPagerController.m */; };
+		47A3C1AD190B26DB00EB2425 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A3C1AC190B26DB00EB2425 /* MasterViewController.m */; };
+		47A3C1B0190B295F00EB2425 /* StudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A3C1AF190B295F00EB2425 /* StudentViewController.m */; };
+		47A3C1B9190B352800EB2425 /* Athletics Nav Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A3C1B2190B352800EB2425 /* Athletics Nav Button.png */; };
+		47A3C1BA190B352800EB2425 /* Hamburger sort button.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A3C1B3190B352800EB2425 /* Hamburger sort button.png */; };
+		47A3C1BB190B352800EB2425 /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A3C1B4190B352800EB2425 /* Library.png */; };
+		47A3C1BC190B352800EB2425 /* My Academics.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A3C1B5190B352800EB2425 /* My Academics.png */; };
+		47A3C1BD190B352800EB2425 /* SHUTTLES Nav Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A3C1B6190B352800EB2425 /* SHUTTLES Nav Button.png */; };
+		47A3C1BE190B352800EB2425 /* STUDENTS Nav Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A3C1B7190B352800EB2425 /* STUDENTS Nav Button.png */; };
+		47A3C1C2190B51FE00EB2425 /* AcademicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A3C1C1190B51FE00EB2425 /* AcademicsViewController.m */; };
+		47A3C1CB190B5E4A00EB2425 /* SearchClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A3C1CA190B5E4A00EB2425 /* SearchClassesViewController.m */; };
+		47A78A35190C01C9006C978E /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A78A34190C01C9006C978E /* ShoppingCartViewController.m */; };
+		47A78A38190C01E9006C978E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A78A37190C01E9006C978E /* User.m */; };
+		47A78A3A190C0A3D006C978E /* Shopping Cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A78A39190C0A3D006C978E /* Shopping Cart.png */; };
+		47A78A3C190C1D20006C978E /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A78A3B190C1D20006C978E /* checkmark.png */; };
+		47A78A3F190C248A006C978E /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A78A3E190C248A006C978E /* MenuViewController.m */; };
+		47A78A42190C2B1B006C978E /* JCRBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A78A41190C2B1B006C978E /* JCRBlurView.m */; };
+		47A78A44190C33AF006C978E /* left_caret.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A78A43190C33AF006C978E /* left_caret.png */; };
+		47A78A46190C3463006C978E /* icon-arrow-big 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A78A45190C3463006C978E /* icon-arrow-big 2.png */; };
+		47A78A48190C57FA006C978E /* Wildcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A78A47190C57FA006C978E /* Wildcard.png */; };
+		47A78A4B190C5908006C978E /* WildCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A78A4A190C5908006C978E /* WildCardViewController.m */; };
+		47A78A4D190C5CEA006C978E /* WildCard1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A78A4C190C5CEA006C978E /* WildCard1.png */; };
 		47B307E01906193A00F5416D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307DF1906193A00F5416D /* Foundation.framework */; };
 		47B307E21906193A00F5416D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307E11906193A00F5416D /* CoreGraphics.framework */; };
 		47B307E41906193A00F5416D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307E31906193A00F5416D /* UIKit.framework */; };
@@ -21,6 +53,7 @@
 		47B308011906193B00F5416D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B307E31906193A00F5416D /* UIKit.framework */; };
 		47B308091906193B00F5416D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47B308071906193B00F5416D /* InfoPlist.strings */; };
 		47B3080B1906193B00F5416D /* NorthwesternAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B3080A1906193B00F5416D /* NorthwesternAppTests.m */; };
+		47B3081519061A5700F5416D /* northwestern-crest-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47B3081419061A5700F5416D /* northwestern-crest-logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +67,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47118D91190B93460072B58D /* CoursePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursePageViewController.h; sourceTree = "<group>"; };
+		47118D92190B93460072B58D /* CoursePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursePageViewController.m; sourceTree = "<group>"; };
+		47118D95190B9FA80072B58D /* BestFitSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestFitSearcher.h; sourceTree = "<group>"; };
+		47118D96190B9FA80072B58D /* BestFitSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestFitSearcher.m; sourceTree = "<group>"; };
+		473AC27F190BBF5F0078BE3D /* FuturaLT-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-Book.ttf"; sourceTree = "<group>"; };
+		473AC280190BBF5F0078BE3D /* FuturaLT-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaLT-Light.ttf"; sourceTree = "<group>"; };
+		473AC281190BBF5F0078BE3D /* FuturaLT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaLT.ttf; sourceTree = "<group>"; };
+		473AC282190BD7480078BE3D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		473AC284190BD77C0078BE3D /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		473AC285190BD77C0078BE3D /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		473AC286190BD77C0078BE3D /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		473AC287190BD77C0078BE3D /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		473AC288190BD77C0078BE3D /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		473AC289190BD77C0078BE3D /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		473AC28A190BD77C0078BE3D /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		473AC28B190BD77C0078BE3D /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		473AC28C190BD77C0078BE3D /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		473AC28D190BD77C0078BE3D /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		473AC28E190BD77C0078BE3D /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		473AC28F190BD77C0078BE3D /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		473AC296190BD9EF0078BE3D /* FrostedMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrostedMenuViewController.h; sourceTree = "<group>"; };
+		473AC297190BD9EF0078BE3D /* FrostedMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrostedMenuViewController.m; sourceTree = "<group>"; };
+		47A3C195190B247400EB2425 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewPagerController.h; path = ICViewPager/ICViewPager/ViewPagerController.h; sourceTree = "<group>"; };
+		47A3C196190B247400EB2425 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewPagerController.m; path = ICViewPager/ICViewPager/ViewPagerController.m; sourceTree = "<group>"; };
+		47A3C1AB190B26DB00EB2425 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		47A3C1AC190B26DB00EB2425 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		47A3C1AE190B295F00EB2425 /* StudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentViewController.h; sourceTree = "<group>"; };
+		47A3C1AF190B295F00EB2425 /* StudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentViewController.m; sourceTree = "<group>"; };
+		47A3C1B2190B352800EB2425 /* Athletics Nav Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Athletics Nav Button.png"; sourceTree = "<group>"; };
+		47A3C1B3190B352800EB2425 /* Hamburger sort button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hamburger sort button.png"; sourceTree = "<group>"; };
+		47A3C1B4190B352800EB2425 /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Library.png; sourceTree = "<group>"; };
+		47A3C1B5190B352800EB2425 /* My Academics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My Academics.png"; sourceTree = "<group>"; };
+		47A3C1B6190B352800EB2425 /* SHUTTLES Nav Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SHUTTLES Nav Button.png"; sourceTree = "<group>"; };
+		47A3C1B7190B352800EB2425 /* STUDENTS Nav Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "STUDENTS Nav Button.png"; sourceTree = "<group>"; };
+		47A3C1C0190B51FE00EB2425 /* AcademicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcademicsViewController.h; sourceTree = "<group>"; };
+		47A3C1C1190B51FE00EB2425 /* AcademicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcademicsViewController.m; sourceTree = "<group>"; };
+		47A3C1C9190B5E4A00EB2425 /* SearchClassesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchClassesViewController.h; sourceTree = "<group>"; };
+		47A3C1CA190B5E4A00EB2425 /* SearchClassesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchClassesViewController.m; sourceTree = "<group>"; };
+		47A78A33190C01C9006C978E /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		47A78A34190C01C9006C978E /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
+		47A78A36190C01E9006C978E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		47A78A37190C01E9006C978E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		47A78A39190C0A3D006C978E /* Shopping Cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shopping Cart.png"; sourceTree = "<group>"; };
+		47A78A3B190C1D20006C978E /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		47A78A3D190C248A006C978E /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		47A78A3E190C248A006C978E /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		47A78A40190C2B1B006C978E /* JCRBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCRBlurView.h; sourceTree = "<group>"; };
+		47A78A41190C2B1B006C978E /* JCRBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRBlurView.m; sourceTree = "<group>"; };
+		47A78A43190C33AF006C978E /* left_caret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_caret.png; sourceTree = "<group>"; };
+		47A78A45190C3463006C978E /* icon-arrow-big 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-arrow-big 2.png"; sourceTree = "<group>"; };
+		47A78A47190C57FA006C978E /* Wildcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wildcard.png; sourceTree = "<group>"; };
+		47A78A49190C5908006C978E /* WildCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WildCardViewController.h; path = ../WildCardViewController.h; sourceTree = "<group>"; };
+		47A78A4A190C5908006C978E /* WildCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WildCardViewController.m; path = ../WildCardViewController.m; sourceTree = "<group>"; };
+		47A78A4C190C5CEA006C978E /* WildCard1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WildCard1.png; sourceTree = "<group>"; };
 		47B307DC1906193A00F5416D /* NorthwesternApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorthwesternApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B307DF1906193A00F5416D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		47B307E11906193A00F5416D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +140,7 @@
 		47B308061906193B00F5416D /* NorthwesternAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NorthwesternAppTests-Info.plist"; sourceTree = "<group>"; };
 		47B308081906193B00F5416D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47B3080A1906193B00F5416D /* NorthwesternAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NorthwesternAppTests.m; sourceTree = "<group>"; };
+		47B3081419061A5700F5416D /* northwestern-crest-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "northwestern-crest-logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473AC283190BD7480078BE3D /* Accelerate.framework in Frameworks */,
 				47B307E21906193A00F5416D /* CoreGraphics.framework in Frameworks */,
 				47B307E41906193A00F5416D /* UIKit.framework in Frameworks */,
 				47B307E01906193A00F5416D /* Foundation.framework in Frameworks */,
@@ -79,6 +168,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47118D94190B95050072B58D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				47A78A36190C01E9006C978E /* User.h */,
+				47A78A37190C01E9006C978E /* User.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		47A3C1AA190B266D00EB2425 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				47118D95190B9FA80072B58D /* BestFitSearcher.h */,
+				47118D96190B9FA80072B58D /* BestFitSearcher.m */,
+				47118D91190B93460072B58D /* CoursePageViewController.h */,
+				47118D92190B93460072B58D /* CoursePageViewController.m */,
+				47A78A49190C5908006C978E /* WildCardViewController.h */,
+				47A78A4A190C5908006C978E /* WildCardViewController.m */,
+				47A3C1AB190B26DB00EB2425 /* MasterViewController.h */,
+				47A3C1AC190B26DB00EB2425 /* MasterViewController.m */,
+				47A3C1AE190B295F00EB2425 /* StudentViewController.h */,
+				47A3C1AF190B295F00EB2425 /* StudentViewController.m */,
+				473AC296190BD9EF0078BE3D /* FrostedMenuViewController.h */,
+				473AC297190BD9EF0078BE3D /* FrostedMenuViewController.m */,
+				47A3C1C0190B51FE00EB2425 /* AcademicsViewController.h */,
+				47A3C1C1190B51FE00EB2425 /* AcademicsViewController.m */,
+				47B307F41906193B00F5416D /* ViewController.h */,
+				47B307F51906193B00F5416D /* ViewController.m */,
+				47A78A3D190C248A006C978E /* MenuViewController.h */,
+				47A78A3E190C248A006C978E /* MenuViewController.m */,
+				47A3C1C9190B5E4A00EB2425 /* SearchClassesViewController.h */,
+				47A3C1CA190B5E4A00EB2425 /* SearchClassesViewController.m */,
+				47A78A33190C01C9006C978E /* ShoppingCartViewController.h */,
+				47A78A34190C01C9006C978E /* ShoppingCartViewController.m */,
+				47A3C195190B247400EB2425 /* ViewPagerController.h */,
+				47A3C196190B247400EB2425 /* ViewPagerController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		47A3C1B1190B351000EB2425 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				47A3C1B2190B352800EB2425 /* Athletics Nav Button.png */,
+				47A3C1B3190B352800EB2425 /* Hamburger sort button.png */,
+				47A3C1B4190B352800EB2425 /* Library.png */,
+				47A78A47190C57FA006C978E /* Wildcard.png */,
+				47A3C1B5190B352800EB2425 /* My Academics.png */,
+				47A3C1B6190B352800EB2425 /* SHUTTLES Nav Button.png */,
+				47A3C1B7190B352800EB2425 /* STUDENTS Nav Button.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		47B307D31906193900F5416D = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +244,7 @@
 		47B307DE1906193A00F5416D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				473AC282190BD7480078BE3D /* Accelerate.framework */,
 				47B307DF1906193A00F5416D /* Foundation.framework */,
 				47B307E11906193A00F5416D /* CoreGraphics.framework */,
 				47B307E31906193A00F5416D /* UIKit.framework */,
@@ -112,11 +256,11 @@
 		47B307E51906193A00F5416D /* NorthwesternApp */ = {
 			isa = PBXGroup;
 			children = (
+				47118D94190B95050072B58D /* Objects */,
+				47A3C1AA190B266D00EB2425 /* View Controllers */,
 				47B307EE1906193A00F5416D /* AppDelegate.h */,
 				47B307EF1906193A00F5416D /* AppDelegate.m */,
 				47B307F11906193B00F5416D /* Main.storyboard */,
-				47B307F41906193B00F5416D /* ViewController.h */,
-				47B307F51906193B00F5416D /* ViewController.m */,
 				47B307F71906193B00F5416D /* Images.xcassets */,
 				47B307E61906193A00F5416D /* Supporting Files */,
 			);
@@ -126,6 +270,30 @@
 		47B307E61906193A00F5416D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				47A78A40190C2B1B006C978E /* JCRBlurView.h */,
+				47A78A4C190C5CEA006C978E /* WildCard1.png */,
+				47A78A45190C3463006C978E /* icon-arrow-big 2.png */,
+				47A78A43190C33AF006C978E /* left_caret.png */,
+				47A78A41190C2B1B006C978E /* JCRBlurView.m */,
+				47A78A39190C0A3D006C978E /* Shopping Cart.png */,
+				47A78A3B190C1D20006C978E /* checkmark.png */,
+				473AC284190BD77C0078BE3D /* RECommonFunctions.h */,
+				473AC285190BD77C0078BE3D /* RECommonFunctions.m */,
+				473AC286190BD77C0078BE3D /* REFrostedContainerViewController.h */,
+				473AC287190BD77C0078BE3D /* REFrostedContainerViewController.m */,
+				473AC288190BD77C0078BE3D /* REFrostedViewController.h */,
+				473AC289190BD77C0078BE3D /* REFrostedViewController.m */,
+				473AC28A190BD77C0078BE3D /* UIImage+REFrostedViewController.h */,
+				473AC28B190BD77C0078BE3D /* UIImage+REFrostedViewController.m */,
+				473AC28C190BD77C0078BE3D /* UIView+REFrostedViewController.h */,
+				473AC28D190BD77C0078BE3D /* UIView+REFrostedViewController.m */,
+				473AC28E190BD77C0078BE3D /* UIViewController+REFrostedViewController.h */,
+				473AC28F190BD77C0078BE3D /* UIViewController+REFrostedViewController.m */,
+				473AC27F190BBF5F0078BE3D /* FuturaLT-Book.ttf */,
+				473AC280190BBF5F0078BE3D /* FuturaLT-Light.ttf */,
+				473AC281190BBF5F0078BE3D /* FuturaLT.ttf */,
+				47A3C1B1190B351000EB2425 /* Images */,
+				47B3081419061A5700F5416D /* northwestern-crest-logo.jpg */,
 				47B307E71906193A00F5416D /* NorthwesternApp-Info.plist */,
 				47B307E81906193A00F5416D /* InfoPlist.strings */,
 				47B307EB1906193A00F5416D /* main.m */,
@@ -199,6 +367,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Matthew Ehinger";
 				TargetAttributes = {
+					47B307DB1906193A00F5416D = {
+						DevelopmentTeam = 482K37VF4M;
+					};
 					47B307FC1906193B00F5416D = {
 						TestTargetID = 47B307DB1906193A00F5416D;
 					};
@@ -211,6 +382,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 47B307D31906193900F5416D;
 			productRefGroup = 47B307DD1906193A00F5416D /* Products */;
@@ -228,9 +400,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A78A44190C33AF006C978E /* left_caret.png in Resources */,
+				47A3C1BB190B352800EB2425 /* Library.png in Resources */,
 				47B307F81906193B00F5416D /* Images.xcassets in Resources */,
+				47A78A3A190C0A3D006C978E /* Shopping Cart.png in Resources */,
+				47B3081519061A5700F5416D /* northwestern-crest-logo.jpg in Resources */,
+				47A3C1BC190B352800EB2425 /* My Academics.png in Resources */,
+				47A78A46190C3463006C978E /* icon-arrow-big 2.png in Resources */,
 				47B307EA1906193A00F5416D /* InfoPlist.strings in Resources */,
+				47A3C1BD190B352800EB2425 /* SHUTTLES Nav Button.png in Resources */,
+				47A78A4D190C5CEA006C978E /* WildCard1.png in Resources */,
+				47A3C1BA190B352800EB2425 /* Hamburger sort button.png in Resources */,
+				47A78A3C190C1D20006C978E /* checkmark.png in Resources */,
+				47A3C1BE190B352800EB2425 /* STUDENTS Nav Button.png in Resources */,
 				47B307F31906193B00F5416D /* Main.storyboard in Resources */,
+				47A3C1B9190B352800EB2425 /* Athletics Nav Button.png in Resources */,
+				47A78A48190C57FA006C978E /* Wildcard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +435,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B307F61906193B00F5416D /* ViewController.m in Sources */,
+				473AC293190BD77C0078BE3D /* UIImage+REFrostedViewController.m in Sources */,
+				473AC292190BD77C0078BE3D /* REFrostedViewController.m in Sources */,
 				47B307F01906193A00F5416D /* AppDelegate.m in Sources */,
+				47A3C1CB190B5E4A00EB2425 /* SearchClassesViewController.m in Sources */,
 				47B307EC1906193A00F5416D /* main.m in Sources */,
+				47A78A35190C01C9006C978E /* ShoppingCartViewController.m in Sources */,
+				473AC294190BD77C0078BE3D /* UIView+REFrostedViewController.m in Sources */,
+				47118D93190B93460072B58D /* CoursePageViewController.m in Sources */,
+				47A3C1AD190B26DB00EB2425 /* MasterViewController.m in Sources */,
+				47A3C1C2190B51FE00EB2425 /* AcademicsViewController.m in Sources */,
+				473AC295190BD77C0078BE3D /* UIViewController+REFrostedViewController.m in Sources */,
+				473AC291190BD77C0078BE3D /* REFrostedContainerViewController.m in Sources */,
+				47118D97190B9FA80072B58D /* BestFitSearcher.m in Sources */,
+				47A78A42190C2B1B006C978E /* JCRBlurView.m in Sources */,
+				47A3C1B0190B295F00EB2425 /* StudentViewController.m in Sources */,
+				47A78A4B190C5908006C978E /* WildCardViewController.m in Sources */,
+				47A78A38190C01E9006C978E /* User.m in Sources */,
+				473AC298190BD9EF0078BE3D /* FrostedMenuViewController.m in Sources */,
+				47A3C1A4190B247400EB2425 /* ViewPagerController.m in Sources */,
+				473AC290190BD77C0078BE3D /* RECommonFunctions.m in Sources */,
+				47A78A3F190C248A006C978E /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +580,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NorthwesternApp/NorthwesternApp-Prefix.pch";
 				INFOPLIST_FILE = "NorthwesternApp/NorthwesternApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +596,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NorthwesternApp/NorthwesternApp-Prefix.pch";
 				INFOPLIST_FILE = "NorthwesternApp/NorthwesternApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +666,7 @@
 				47B308101906193B00F5416D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47B308111906193B00F5416D /* Build configuration list for PBXNativeTarget "NorthwesternAppTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +675,7 @@
 				47B308131906193B00F5416D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
